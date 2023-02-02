@@ -1,0 +1,770 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.navbar {
+  background: #000;
+}
+.navbar-brand>img {
+  width: 4rem;
+}
+.navbar-default {
+  border: none;
+}
+.navbar-nav>li>a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #e7e7e7;
+}
+video{
+  width: 100%;
+  margin-top: 45px;
+}
+
+.video-info {
+  position: absolute;
+  top: 300px;
+  left: 75%;
+}
+.video-info h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 54px;
+}
+
+.banner-img {
+  display: none;
+}
+.video-btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.video-btn:hover {
+  color: #E3E3E3;
+}
+.font-normal {
+  text-shadow: 2px 2px 4px #000000;
+
+}
+/********************* 3 box layout begin ****************/
+#three-box-section {
+  margin: 40px auto;
+}
+.box-3-layout {
+  background: #c42a00;
+  text-align: center;
+  padding: 40px 0;
+  height: 160px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  /* box-shadow: 5px 5px 5px #888888; */
+  border-radius: 0px;
+}
+/* .box-3-layout img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+   opacity: 0;
+}
+.box-3-layout .three-box-overlay {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: 0;
+  bottom: 0;
+} */
+/* .box-3-layout .three-box-overlay p {
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+} */
+
+/********************* 3 box layout end ****************/
+
+.section-header {
+  text-align: center;
+}
+.video-popup {
+  cursor: pointer;
+}
+
+.video-popup:hover {
+opacity:80%;
+transition:opacity 0.5s
+}
+.tp-bgimg {
+  background-attachment: fixed;
+}
+#about .video-container {
+  position: relative;
+  width: 50%;
+}
+#about .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#about, #about .section-header {
+  padding: 0;
+}
+#about h2 {
+  color: #000;
+  font-size: 5.5rem;
+}
+#about h2 .green {
+  color: green;
+}
+#about .col-md-3 {
+  padding: 0;
+}
+#about .video-container {
+position: relative;
+width: 100%;
+}
+
+#about .image {
+display: block;
+width: 100%;
+height: 300px;
+}
+
+#about .overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
+}
+#about .overlay::before {
+display: none;
+}
+#about .video-container:hover .overlay {
+opacity: 1;
+}
+
+#about .text {
+color: white;
+font-size: 20px;
+position: absolute;
+z-index: 20;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.media-img {
+  height: 500px;
+  background: url('../img_/drew-graham.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 40px 0 40px 0;
+}
+
+.media-img .row {
+  margin: 40px auto;
+}
+.media-text h2, .media-text p {
+  text-align: center;
+  color: #ffffff;
+}
+.media-text p i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.media-text p {
+  line-height: 26px;
+}
+
+#our-work .brands {
+  width: 100%;
+}
+
+#fadetb {
+  color: #3b5d70;
+  animation: ease;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin-bottom: 0 !important;
+  /* text-shadow: 2px 2px 4px #000000; */
+}
+
+#fadetb .section-title {
+  color: #000;;
+}
+#fadetb .black {
+  color: #000000;
+}
+#fadetb .font-lg {
+  margin-bottom: 40px
+}
+.video-img .ang {
+    height: 300px !important;
+    width: 400px;
+    object-fit: cover;
+}
+#rev_slider_2 .tp-parallax-wrap {
+  left: 17% !important;
+  color: #fff;
+  text-align: center;
+}
+#rev_slider_2 .tp-parallax-wrap .comp-adv {
+  font-size: 18px;
+}
+#digital-img .tp-parallax-wrap {
+  left: 90rem !important;
+  color: #fff;
+  text-align: center;
+}
+#digital-img {
+  height: 500px;
+  padding-top: 0 !important;
+  /* margin: 3rem 0; */
+}
+#digital-img .ytcert {
+  background: #fff;
+  border-radius: 5px;
+  width: 13rem !important;
+  height: auto !important;
+}
+#digital-img h2 {
+  font-size: 1em;
+}
+#digital-img h4 {
+  font-size: .9em !important;
+}
+#digital-img .ytc-sub {
+  font-size: 18px;
+  letter-spacing: 0;
+}
+#digital .lrg-img {
+  max-width: 55%;
+}
+
+#rev_slider_3 h2, #rev_slider_3 p {
+  text-shadow: 2px 2px 3px #050201;
+  color: #fff;
+  text-align: center;
+}
+
+#rev_slider_3 p.ytc-sub {
+  line-height: 26px !important;
+}
+
+#unlimitedVideo, #events {
+  padding-top: 0 !important;
+  margin-bottom: 0!important;
+}
+
+#unlimitedVideo {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9feff+0,f4f6f9+50,e4e3fc+100 */
+background: rgb(249,254,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(249,254,255,1) 0%, rgba(244,246,249,1) 50%, rgba(228,227,252,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(249,254,255,1) 0%,rgba(244,246,249,1) 50%,rgba(228,227,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(249,254,255,1) 0%,rgba(244,246,249,1) 50%,rgba(228,227,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9feff', endColorstr='#e4e3fc',GradientType=1 ); /* IE6-9 */
+}
+
+#events {
+  color: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d52bdb+0,620eea+50,ec81ef+100 */
+background: rgb(213,43,219); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(213,43,219,1) 0%, rgba(98,14,234,1) 50%, rgba(236,129,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(213,43,219,1) 0%,rgba(98,14,234,1) 50%,rgba(236,129,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(213,43,219,1) 0%,rgba(98,14,234,1) 50%,rgba(236,129,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d52bdb', endColorstr='#ec81ef',GradientType=1 ); /* IE6-9 */
+}
+#events .font-lg {
+  margin-bottom: 30px;
+}
+#events .section-title::after {
+  background-color: #fff;
+  width: 6em;
+}
+
+#events .col-md-6 {
+  padding-right: 0;
+}
+
+#unlimitedVideo .section-header {
+  margin: 0;
+}
+
+
+hr {
+  width: 85%;
+  border-top: 1px solid #d0d3da;
+}
+
+.newsletter-img {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom:  30px;
+  border: 1px solid #d9dde2;
+  text-align: center;
+  background: #f7f8f9;
+}
+
+.newsletter-img p {
+  font-size: 16px;
+}
+
+#mc_embed_signup input#mce-EMAIL {
+    width: 90%;
+    text-align: center;
+    border: 1px solid #d9dde2;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
+
+#mc_embed_signup input#mc-embedded-subscribe, #mc_embed_signup input#mc-embedded-subscribe:focus {
+  margin: 10px;
+  background: #000;
+  height: auto;
+}
+#mc_embed_signup input#mc-embedded-subscribe:hover, #mc_embed_signup input#mc-embedded-subscribe:focus:hover {
+  background: #700414;
+  color: #fff;
+}
+/********************************** PARTNERS SECTION *************************************/
+#partners {
+  margin: 40px 0;
+  background: #000000;
+}
+#partners h4 {
+  color: #FFFFFF;
+  line-height: inherit;
+}
+.lol-box {
+  /* background: #000000; */
+  padding: 40px;
+}
+.lol-logo-img {
+    padding: 40px;
+    text-align: center;
+    /* background: #000; */
+    width: 60%;
+    margin: auto;
+}
+.lol-copy h4 {
+  color: #ffffff;
+  text-align: center;
+}
+.lol-copy p {
+  text-transform: none;
+  font-size: 16px;
+}
+.logo-images {
+  text-align: center;
+  padding: 30px 0;
+  background: #000000;
+}
+.logo-images img {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  margin: 30px;
+}
+.logo-images img.ccc-logo,
+.logo-images img.mp-logo {
+  height: 180px
+}
+.logo-images img.yt-logo {
+  height: 50px;
+}
+
+
+/********************************** ABOUT US SECTION ****************************************/
+#team-members {
+
+}
+#team-members .team-figure {
+  height: 27rem;
+  /* border-radius: 50%; */
+  width: 25rem;
+  margin: auto;
+}
+#team-members {
+  position: relative;
+  padding: 30px 0;
+}
+#team-members .text {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+#team-members .text p {
+  font-size: 16px;
+  text-transform: none;
+}
+#team-members h3 {
+  margin-bottom: 20px
+}
+#team-members .cert-icons {
+  margin-top: 3rem;
+}
+#team-members .nmsdc,
+#team-members .sag,
+#team-members .labc {
+  margin: 0 15px;
+  vertical-align: bottom
+}
+#team-members .woods-img {
+  position: relative;
+  text-align: center;
+  padding: 30px 0;
+}
+#team-members .woods-img img {
+  max-width: 75%;
+}
+.logo-links {
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #d9dde2;
+}
+
+.logo-links img {
+  height: 100%;
+  margin: 0 20px;
+}
+
+
+#team {
+  background-color: #c42a00;
+}
+
+#team header h2 {
+  color: #ffffff;
+}
+
+.newsletter .social-icons .fab {
+  font-size: 3rem;
+  margin: 2px;
+}
+.newsletter .social-icons .fab:hover {
+  color: #700414;
+}
+.newsletter .social-icons {
+  padding: 15px 0;
+}
+
+#contact {
+  background: #000000;
+  color: #ffffff;
+}
+
+#contact .col-md-12 {
+  text-align: center;
+}
+
+#contact .contact-info {
+  padding: 30px;
+}
+
+#contact .contact-info a {
+  color: #c42a00;
+}
+
+
+/* Directors */
+#directors .section-header h4 {
+  line-height: 1.5em;
+}
+/************* Tablet View ***************/
+@media (max-width: 768px){
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .navbar-brand>img {
+    width: 3rem;
+  }
+  #digital .col-md-2 img {
+    width: 44%;
+  }
+
+  .team-figure img {
+    margin: 0 auto;
+  }
+
+  #about {
+    /* margin-bottom: 30px !important; */
+    padding: 0;
+  }
+  #fadetb .artist {
+    max-width: 100%;
+  }
+  #unlimitedVideo {
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  #digital-img .tp-parallax-wrap {
+    left: 51rem !important;
+    color: #fff;
+  }
+  #digital-img {
+    height: auto;
+    padding-top: 0 !important;
+  }
+
+  #events {
+    padding: 0 !important;
+  }
+
+  #team-members .text {
+    position: initial;
+    text-align: center;
+  }
+  #team-members .woods-img {
+    padding: 0;
+  }
+  #team-members .woods-img img {
+    max-width: 100%;
+  }
+
+  #careers .lbl {
+    margin: 10px 0;
+  }
+}
+
+/*********************** Slideshow container *********************/
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: 80px auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  border-radius: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*********************** Slideshow container *********************/
+
+
+/******************** Mobile View *********************/
+@media (max-width: 600px){
+  .navbar {
+    background: #000;
+  }
+
+  .fullscreen-bg {
+    display: none;
+  }
+  .banner-img {
+    display: block;
+    margin: 20px auto;
+  }
+  .video-btn {
+        white-space: pre-wrap;
+  }
+  .box-3-layout {
+    margin: 10px;
+  }
+  .part-4 {
+    width: auto;
+  }
+  .box-4, .box-5 {
+    flex: auto;
+  }
+
+  #about {
+    margin-top: 100px;
+    /* margin-bottom: 20px !important; */
+    padding: 0;
+  }
+  #our-work .section-header {
+    margin: 0;
+    text-align: center;
+  }
+  #our-work .nmsdc {
+    margin-bottom: 20px;
+  }
+
+  .tp-bgimg {
+    background-attachment: inherit;
+    height: 300px;
+  }
+  .lol-logo-img {
+    width: 100%;
+  }
+  .lol-copy {
+    text-align: center;
+  }
+  .logo-images img {
+    max-width: 100%;
+  }
+  .logo-images img.yt-logo {
+    width: 75%;
+    height: auto;
+  }
+
+  #rev_slider_2 .tp-parallax-wrap {
+    font-size: 32px;
+  }
+  #rev_slider_3 .tp-parallax-wrap {
+    left: 16rem !important;
+  }
+  #rev_slider_3 .tp-parallax-wrap h2 {
+    font-size: 17px !important;
+  }
+  #rev_slider_3 p.ytc-sub {
+    line-height: 16px !important;
+    font-size: 15px !important;
+  }
+
+  #digital-img .tp-parallax-wrap {
+    left: 24rem !important;
+    color: #fff;
+  }
+  #digital-img h4 {
+    line-height: 1.2em !important;
+    font-size: 1em !important;
+  }
+  #digital .col-md-2 img {
+    max-width: 85%
+  }
+
+  #digital-img .ytcert {
+    background: #fff;
+    border-radius: 5px;
+    width: 8rem !important;
+    height: auto !important;
+  }
+  .media-img {
+    height: auto;
+  }
+  #team {
+    padding: 0px;
+  }
+
+  #mc_embed_signup input#mce-EMAIL {
+      width: 90%;
+      text-align: center;
+      height: auto;
+  }
+
+  #mc_embed_signup input#mc-embedded-subscribe, #mc_embed_signup input#mc-embedded-subscribe:focus {
+    width: 50%;
+    margin: 10px 0 !important;
+  }
+  #team-members {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+  #team-members .text {
+    position: initial;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #team-members .woods-img {
+    padding: 0;
+  }
+  #team-members .woods-img img {
+    max-width: 100%;
+  }
+
+  #contact .contact-info {
+    padding: 15px;
+    font-size: 17px;
+  }
+}
